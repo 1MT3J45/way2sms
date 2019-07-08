@@ -10,24 +10,24 @@ import way2sms
 ```
 -  Login
 
-  ```python
-q=way2sms.sms(username,password)
-  ```
+```python
+q = way2sms.Sms(username,password)
+```
 - Send SMS, returns True if sent
 
-  ```python
-  q.send( 'mobile_number', 'message' )      # both are STRING
-  ```
+```python
+q.send( 'mobile_number', 'message' )      # both are STRING
+```
 - Message Sent today, returns the number
 
- ```python
- q.msgSentToday()
- ```
+```python
+q.msgSentToday()
+```
 - Logout
 
- ```python
- q.logout()
- ```
+```python
+q.logout()
+```
  
 #Python3 and Packages
 
